@@ -33,8 +33,9 @@ namespace Proceso_168016__sgdetest.Hooks
 
                     //var _driver = new ChromeDriver(chromeOptions);
                     ChromeOptions ChromeOptions = new ChromeOptions();
-                    //ChromeOptions.AddAdditionalCapability("useAutomationExtension", false);
-                    ChromeOptions.AddArguments("disable-blink-features=AutomationControlled");
+                    ChromeOptions.AddAdditionalChromeOption("useAutomationExtension", false);
+                    ChromeOptions.AddExcludedArgument("enable-automation");
+                    // ChromeOptions.AddArguments("disable-blink-features=AutomationControlled");
                     ChromeOptions.AddArguments("--start-maximized");
                     ChromeOptions.AddArguments("--no-sandbox");
                     ChromeOptions.AddArgument("--headless");
