@@ -30,10 +30,19 @@ namespace Proceso_168016__sgdetest.Hooks
         [BeforeFeature]
         public static void BeforeFeatureStart(FeatureContext featureContext)
         {
-            if (null != featureContext)
+            try
             {
-                _feature = _extentReports.CreateTest<Feature>(featureContext.FeatureInfo.Title, featureContext.FeatureInfo.Description);
+                if (null != featureContext)
+                {
+                    _feature = _extentReports.CreateTest<Feature>(featureContext.FeatureInfo.Title, featureContext.FeatureInfo.Description);
+                }
             }
+            catch (Exception ex)
+            {
+
+                throw ex.InnerException;
+            }
+           
         }
 
         [BeforeScenario]
