@@ -312,13 +312,13 @@ namespace Proceso_168016__sgdetest.StepDefinations
             CustomBaseClass.Maximizewindow();
         }
 
-        [Then(@"Toma pantallazo")]
-        public void ThenTomaPantallazo()
-        {
+        //[Then(@"Toma pantallazo")]
+        //public void ThenTomaPantallazo()
+        //{
 
-            //GeneralHook.AfterScenario();
+        //    //GeneralHook.AfterScenario();
 
-        }
+        //}
 
     }
 }

@@ -7,7 +7,7 @@ Background:
 	When Usuario se logea con credenciale OpheliaSuite y validPassword en los campos textUsername y textPassword
 	Then Espera de 30
 	And Click en el boton
-	And Toma pantallazo
+	#And Toma pantallazo
 	Then Espera de 15
     #Then User should be able to login succesfully Yuly Johana Aristizabal T
 

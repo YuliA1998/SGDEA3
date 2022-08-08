@@ -96,9 +96,6 @@ namespace Proceso_168016__sgdetest.Features
 #line 9
  await testRunner.AndAsync("Click en el boton", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 10
- await testRunner.AndAsync("Toma pantallazo", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line hidden
 #line 11
  await testRunner.ThenAsync("Espera de 15", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
