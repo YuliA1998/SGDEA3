@@ -28,7 +28,7 @@ namespace Proceso_168016__sgdetest.Features
         
         private static string[] featureTags = ((string[])(null));
         
-#line 1 "Persona Anonima.feature"
+#line 1 "PersonaAnonima.feature"
 #line hidden
         
         [NUnit.Framework.OneTimeSetUpAttribute()]

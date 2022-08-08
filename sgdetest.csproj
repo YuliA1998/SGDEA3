@@ -38,9 +38,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <SpecFlowFeatureFiles Update="Features\Persona Anonima.feature">
+    <SpecFlowFeatureFiles Update="Features\PersonaAnonima.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
-      <LastGenOutput>Persona Anonima.feature.cs</LastGenOutput>
+      <LastGenOutput>PersonaAnonima.feature.cs</LastGenOutput>
     </SpecFlowFeatureFiles>
     <SpecFlowFeatureFiles Update="Features\3Persona Juridica.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
@@ -65,7 +65,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="Features\Persona Anonima.feature.cs">
+    <Compile Update="Features\PersonaAnonima.feature.cs">
       <DesignTime>True</DesignTime>
     </Compile>
     <Compile Update="Features\3Persona Juridica.feature.cs">
