@@ -38,25 +38,25 @@
   </ItemGroup>
 
   <ItemGroup>
-    <SpecFlowFeatureFiles Update="Features\1Persona Anonima.feature">
+    <SpecFlowFeatureFiles Update="Features\Persona Anonima.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
-      <LastGenOutput>1Persona Anonima.feature.cs</LastGenOutput>
+      <LastGenOutput>Persona Anonima.feature.cs</LastGenOutput>
     </SpecFlowFeatureFiles>
-    <SpecFlowFeatureFiles Update="Features\2Persona Juridica.feature">
+    <SpecFlowFeatureFiles Update="Features\Persona Juridica.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
-      <LastGenOutput>2Persona Juridica.feature.cs</LastGenOutput>
+      <LastGenOutput>Persona Juridica.feature.cs</LastGenOutput>
     </SpecFlowFeatureFiles>
-    <SpecFlowFeatureFiles Update="Features\3PersonalNatural.feature">
+    <SpecFlowFeatureFiles Update="Features\PersonalNatural.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
-      <LastGenOutput>3PersonalNatural.feature.cs</LastGenOutput>
+      <LastGenOutput>PersonalNatural.feature.cs</LastGenOutput>
     </SpecFlowFeatureFiles>
-    <SpecFlowFeatureFiles Update="Features\4Edicion Persona Anonima.feature">
+    <SpecFlowFeatureFiles Update="Features\Edicion Persona Anonima.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
-      <LastGenOutput>4Edicion Persona Anonima.feature.cs</LastGenOutput>
+      <LastGenOutput>Edicion Persona Anonima.feature.cs</LastGenOutput>
     </SpecFlowFeatureFiles>
-    <SpecFlowFeatureFiles Update="Features\5EdicionPersonaNatural.feature">
+    <SpecFlowFeatureFiles Update="Features\EdicionPersonaNatural.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
-      <LastGenOutput>5EdicionPersonaNatural.feature.cs</LastGenOutput>
+      <LastGenOutput>EdicionPersonaNatural.feature.cs</LastGenOutput>
     </SpecFlowFeatureFiles>
   </ItemGroup>
 
@@ -65,19 +65,19 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="Features\1Persona Anonima.feature.cs">
+    <Compile Update="Features\Persona Anonima.feature.cs">
       <DesignTime>True</DesignTime>
     </Compile>
-    <Compile Update="Features\2Persona Juridica.feature.cs">
+    <Compile Update="Features\Persona Juridica.feature.cs">
       <DesignTime>True</DesignTime>
     </Compile>
-    <Compile Update="Features\3PersonalNatural.feature.cs">
+    <Compile Update="Features\PersonalNatural.feature.cs">
       <DesignTime>True</DesignTime>
     </Compile>
-    <Compile Update="Features\4Edicion Persona Anonima.feature.cs">
+    <Compile Update="Features\Edicion Persona Anonima.feature.cs">
       <DesignTime>True</DesignTime>
     </Compile>
-    <Compile Update="Features\5EdicionPersonaNatural.feature.cs">
+    <Compile Update="Features\EdicionPersonaNatural.feature.cs">
       <DesignTime>True</DesignTime>
     </Compile>
   </ItemGroup>

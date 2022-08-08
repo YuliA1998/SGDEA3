@@ -1,4 +1,4 @@
-﻿Feature:Persona Anonima
+﻿Feature:Persona Anonima gggggggg
 
 Background: 
 	Given Usurio navega en el inicio de  External  sesion Chrome
