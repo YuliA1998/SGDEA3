@@ -1,0 +1,26 @@
+﻿{
+  "BtnEmpresa": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "(//div[@class='dx-item dx-treeview-item'])[1]"
+  },
+
+  "BtnNuevo": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "/html[1]/body[1]/oph-root[1]/oph-side-nav-outer-toolbar[1]/dx-drawer[1]/div[1]/div[2]/div[2]/div[1]/ng-component[1]/div[1]/div[1]/ngb-tabset[1]/div[1]/div[3]/dx-scroll-view[1]/div[1]/div[1]/div[1]/div[2]/oph-companies[1]/oph-tool-bar[1]/ngb-tabset[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/i[1]"
+  },
+
+  "BtnGuardar": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "/html[1]/body[1]/oph-root[1]/oph-side-nav-outer-toolbar[1]/dx-drawer[1]/div[1]/div[2]/div[2]/div[1]/ng-component[1]/div[1]/div[1]/ngb-tabset[1]/div[1]/div[3]/dx-scroll-view[1]/div[1]/div[1]/div[1]/div[2]/oph-companies[1]/oph-tool-bar[1]/ngb-tabset[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/i[1]"
+  },
+
+  "TxtesCO": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "/html/body/div[2]/div/div[2]/div[1]/dx-scroll-view/div[1]/div/div[1]/div[2]/dx-form/div/div/div/div[1]/div/div/div/div/div/div[1]/input"
+  },
+  "TxtenUS": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "/html/body/div[4]/div/div[2]/div[1]/dx-scroll-view/div[1]/div/div[1]/div[2]/dx-form/div/div/div/div[2]/div/div/div/div/div/div[1]/input"
+  }
+
+}

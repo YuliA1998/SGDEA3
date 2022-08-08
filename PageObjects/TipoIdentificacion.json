@@ -1,0 +1,55 @@
+﻿{
+  "LupaIdentificacion": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "(//div[@class='dx-button-content'])[8]"
+  },
+
+  "NDJ": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//td[normalize-space()='No Determinado']"
+  },
+
+  "NIT": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//td[normalize-space()='NIT - Número de Identificación Tributaria']"
+  },
+
+  "CC": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//td[normalize-space()='Cédula de Ciudadanía']"
+  },
+
+  "CE": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//td[normalize-space()='Cédula de Extranjería']"
+  },
+  "ND": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//td[normalize-space()='No Determinado']"
+  },
+  "PA": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//td[normalize-space()='Pasaporte']"
+  },
+
+  "RC": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//td[normalize-space()='Registro Civil']"
+  },
+
+  "TI": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//td[normalize-space()='Tarjeta de Identidad']"
+  },
+
+
+  "BtnAceptarTipoIdentificacion": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//div[@aria-label='Aceptar']//div[@class='dx-button-content']"
+  },
+  "LupaIdentificacion2": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "/html[1]/body[1]/oph-root[1]/oph-main-container[1]/dx-scroll-view[1]/div[1]/div[1]/div[1]/div[2]/div[1]/oph-form-visualization[1]/oph-form-box-visualization[1]/div[1]/div[1]/div[1]/div[1]/div[1]/dx-form[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/oph-form-box-visualization[1]/div[1]/div[1]/div[1]/div[1]/div[1]/dx-form[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/dx-text-box[2]/div[1]/div[1]/div[1]/div[1]"
+  }
+
+}

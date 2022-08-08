@@ -1,0 +1,50 @@
+﻿{
+  "LupaFuncionarioResponsable": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "/html[1]/body[1]/oph-root[1]/oph-main-container[1]/dx-scroll-view[1]/div[1]/div[1]/div[1]/div[2]/div[1]/oph-form-visualization[1]/oph-form-box-visualization[1]/div[1]/div[1]/div[1]/div[1]/div[1]/dx-form[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/dx-text-box[2]/div[1]/div[1]/div[1]/div[1]"
+  },
+
+  "1": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//td[contains(text(),'Usuario Ophelia Suite')]"
+  },
+  "2": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//td[contains(text(),'GERMAN PUENTES AGUILAR')]"
+  },
+
+  "3": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//td[contains(text(),'LILIANA ISABEL IBAÑEZ FLOREZ')]"
+  },
+
+  "4": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//td[contains(text(),'CLAUDIA SOFIA MARTINEZ CORRALES')]"
+  },
+
+  "5": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//td[contains(text(),'CLAUDIA PATRICIA MORALES ESPARRAGOZA')]"
+  },
+
+  "6": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//td[contains(text(),'JEFE DEPENDENCIA')]"
+  },
+
+  "7": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//td[contains(text(),'JEFE DEPENDENCIA')]"
+  },
+  "8": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//td[contains(text(),'EDGAR MAURICIO FAJARDO PUERTA')]"
+  },
+
+  "BtnAceptarFuncionarioResponsable": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//div[@aria-label='Aceptar']//div[@class='dx-button-content']"
+  }
+
+}

@@ -1,0 +1,21 @@
+{
+  "textUsername": {
+    "GetFieldBy": "name",
+    "ValueToFind": "userName"
+  },
+
+  "textPassword": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "/html[1]/body[1]/oph-root[1]/oph-login-page[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/form[1]/dx-form[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/dx-text-box[1]/div[1]/div[1]/input[1]"
+  },
+
+  "boton": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "/html[1]/body[1]/oph-root[1]/oph-login-page[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/form[1]/dx-form[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]"
+  },
+  "textEmpresa": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[1]/dx-list[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]"
+  }
+
+}

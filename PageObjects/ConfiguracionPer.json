@@ -1,0 +1,85 @@
+﻿{
+  "Prueba": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "/html[1]/body[1]/oph-root[1]/oph-side-nav-outer-toolbar[1]/dx-drawer[1]/div[1]/div[2]/div[2]/div[1]/ng-component[1]/div[1]/div[1]/ngb-tabset[1]/div[1]/div[1]/oph-home-category-container[1]/div[1]/div[1]/dx-scroll-view[1]/div[1]/div[1]/div[1]/div[2]/oph-card-viewer[1]/div[1]/div[1]/div[1]/div[1]/oph-card[1]/div[1]/oph-card-content[1]/div[1]/div[2]/div[2]"
+  },
+
+  "BtnPermiso": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "/html[1]/body[1]/oph-root[1]/oph-side-nav-outer-toolbar[1]/dx-drawer[1]/div[1]/div[1]/oph-side-navigation-menu[1]/div[1]/dx-tree-view[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[6]/div[1]/div[1]/i[1]"
+  },
+
+  "BtnSelectTipo": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "(//div[@class='dx-dropdowneditor-icon'])[1]"
+  },
+
+  "SelectTipoSujeto": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "(//div[contains(text(),'Aplicación')])[1]"
+  },
+
+  "BtnSujeto": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//div[@class='dx-dropdowneditor-input-wrapper']//div[@class='dx-dropdowneditor-icon']"
+  },
+
+  "SelectSujeto": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "(//td[@class='dx-cell-focus-disabled'])[1]"
+  },
+
+  "check": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "(//dx-check-box[@role='checkbox'])[4]"
+  },
+
+  "Notificacion": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "(//div[@class='dx-button-content'])[4]"
+  },
+
+  "NotiOk": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "(//div[@class='notification-item-icon'])[1]"
+  },
+
+  "BtnMenu": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "(//i[@class='dx-icon fas fa-bars oph-icon'])[1]"
+  },
+
+  "BtnSujetoRol": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//div[@class='dx-dropdowneditor-input-wrapper']//div[@class='dx-dropdowneditor-icon']"
+  },
+
+
+  "BtnSelectSujetoRol": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//td[normalize-space()='NEWUSER']"
+  },
+
+
+  "checkRol": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "(//span[@class='dx-checkbox-icon'])[2]"
+  },
+
+  "SelectTipoSujetoCuenta": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "(//div[contains(text(),'Cuenta')])[1]"
+  },
+
+  "SelectSujetoCuenta": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "(//td[@class='dx-cell-focus-disabled'])[1]"
+  },
+
+  "checkCuenta": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "(//span[@class='dx-checkbox-icon'])[2]"
+  }
+
+
+}

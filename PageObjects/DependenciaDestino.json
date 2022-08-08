@@ -1,0 +1,56 @@
+﻿{
+
+  "LupaDependenciaDestino": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "/html[1]/body[1]/oph-root[1]/oph-main-container[1]/dx-scroll-view[1]/div[1]/div[1]/div[1]/div[2]/div[1]/oph-form-visualization[1]/oph-form-box-visualization[1]/div[1]/div[1]/div[1]/div[1]/div[1]/dx-form[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/dx-text-box[2]/div[1]/div[1]/div[1]/div[1]"
+  },
+
+  "1": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//td[normalize-space()='Dirección Ejecutiva']"
+  },
+
+  "2": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//td[normalize-space()='Oficina Asesora de Planeación']"
+  },
+
+  "3": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//td[normalize-space()='Secretaria General']"
+  },
+
+  "4": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//td[normalize-space()='Subdirección de Desarrollo Sostenible y Navegación']"
+  },
+
+  "5": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//td[normalize-space()='Subdirección de Gestión Comercial']"
+  },
+
+  "6": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//td[normalize-space()='Oficina de Gestión y Enlace']"
+  },
+
+  "7": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//td[normalize-space()='Oficina Seccional Barranquilla']"
+  },
+
+  "8": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//td[normalize-space()='Control Interno']"
+  },
+
+  "BtnDependenciaDestino": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//div[@aria-label='Aceptar']//div[@class='dx-button-content']"
+  }
+
+
+
+
+}

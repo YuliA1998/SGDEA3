@@ -1,0 +1,41 @@
+﻿{
+  "LupaTipoPQRSD": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "/html[1]/body[1]/oph-root[1]/oph-main-container[1]/dx-scroll-view[1]/div[1]/div[1]/div[1]/div[2]/div[1]/oph-form-visualization[1]/oph-form-box-visualization[1]/div[1]/div[1]/div[1]/div[1]/div[1]/dx-form[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/dx-text-box[2]/div[1]/div[1]/div[1]/div[1]"
+  },
+
+  "Den": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//td[contains(text(),'Denuncia')]"
+  },
+
+  "Pet": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//td[contains(text(),'Petición')]"
+  },
+  "Que": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//td[contains(text(),'Queja')]"
+  },
+
+  "Rec": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//td[contains(text(),'Reclamo')]"
+  },
+
+  "Sol": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//td[contains(text(),'Solicitud de información')]"
+  },
+
+  "Sug": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//td[contains(text(),'Sugerencia')]"
+  },
+
+  "BtnAceptarTipoPQRSD": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//div[@aria-label='Aceptar']//div[@class='dx-button-content']"
+  }
+
+}

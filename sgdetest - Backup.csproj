@@ -1,0 +1,81 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>Proceso_168016__sgdetest</RootNamespace>
+    <PublishChromeDriver>true</PublishChromeDriver>
+    <ApplicationIcon />
+    <StartupObject />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <SpecFlowObsoleteCodeBehindFiles Remove="Features\1Persona Anonima.feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Features\2Persona Juridica.feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Features\3PersonalNatural.feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Features\4Edicion Persona Anonima.feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Features\5EdicionPersonaNatural.feature.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DotNetSeleniumExtras.WaitHelpers" Version="3.11.0" />
+    <PackageReference Include="ExtentReports" Version="4.1.0" />
+    <PackageReference Include="ExtentReports.Core" Version="1.0.3" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.1.0-preview-20211109-03" />
+    <PackageReference Include="Microsoft.TestPlatform.TestHost" Version="17.1.0-preview-20211109-03" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.2-beta1" />
+    <PackageReference Include="NUnit" Version="3.13.3" />
+    <PackageReference Include="NUnit3TestAdapter" Version="4.2.1" />
+    <PackageReference Include="Selenium.Support" Version="4.2.0" />
+    <PackageReference Include="Selenium.WebDriver" Version="4.2.0" />
+    <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="103.0.5060.13400" />
+    <PackageReference Include="SpecFlow" Version="3.10.2-beta" />
+    <PackageReference Include="SpecFlow.NUnit" Version="3.10.2-beta" />
+    <PackageReference Include="SpecFlow.Tools.MsBuild.Generation" Version="3.10.2-beta" />
+    <Content Include="$(TargetDir)\Drivers\chromedriver.exe" CopyToPublishDirectory="Always">
+		<Link>chromedriver.exe</Link>
+	</Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <SpecFlowFeatureFiles Update="Features\1Persona Anonima.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>1Persona Anonima.feature.cs</LastGenOutput>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Features\2Persona Juridica.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>2Persona Juridica.feature.cs</LastGenOutput>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Features\3PersonalNatural.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>3PersonalNatural.feature.cs</LastGenOutput>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Features\4Edicion Persona Anonima.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>4Edicion Persona Anonima.feature.cs</LastGenOutput>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Features\5EdicionPersonaNatural.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+    </SpecFlowFeatureFiles>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="DataInformes\log\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Features\1Persona Anonima.feature.cs">
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Update="Features\2Persona Juridica.feature.cs">
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Update="Features\3PersonalNatural.feature.cs">
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Update="Features\4Edicion Persona Anonima.feature.cs">
+      <DesignTime>True</DesignTime>
+    </Compile>
+  </ItemGroup>
+
+</Project>

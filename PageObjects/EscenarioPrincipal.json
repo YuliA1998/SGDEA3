@@ -1,0 +1,337 @@
+﻿{
+  "BtnBandejaTarea": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "/html[1]/body[1]/oph-root[1]/oph-side-nav-outer-toolbar[1]/app-header[1]/header[1]/dx-toolbar[1]/div[1]/div[3]/div[2]/dxi-item[1]/div[1]/dx-button[1]/div[1]"
+  },
+
+
+  "BtnAbrirBandeja": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//dx-button[@aria-label='Abrir bandeja de tareas']//div[@class='dx-button-content']"
+  },
+
+  "BtnIniciarProceso": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//div[@title='Iniciar proceso']//div[@class='dx-button-content']"
+  },
+
+  "TxtId": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "(//input[@role='spinbutton'])[1]"
+  },
+
+  "BtnIniciar": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//div[@aria-label='Iniciar']//div[@class='dx-button-content']"
+  },
+
+  "BtnSeleccionarProceso": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "(//td[normalize-space()='168016'])[1]"
+  },
+
+  "TxtNombreRemitente": {
+    "GetFieldBy": "name",
+    "ValueToFind": "NomRemitente"
+  },
+
+  "TxtIdentificacion": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "NoIdent"
+  },
+
+  "BtnBuscar": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//div[@aria-label='Buscar']//div[@class='dx-button-content']"
+  },
+  "IdentificadorIframe": {
+    "GetFieldBy": "iframe",
+    "ValueToFind": "/html/body/oph-root/oph-side-nav-outer-toolbar/dx-drawer/div/div[2]/div[2]/div[1]/ng-component/div/div/ngb-tabset/div/div[5]/dx-scroll-view/div[1]/div/div[1]/div[2]/oph-bpm-task-displayer/div/div[2]/div/iframe"
+  },
+
+  "IdentificadorIframe2": {
+    "GetFieldBy": "iframe",
+    "ValueToFind": "/html/body/oph-root/oph-side-nav-outer-toolbar/dx-drawer/div/div[2]/div[2]/div[1]/ng-component/div/div/ngb-tabset/div/div[5]/dx-scroll-view/div[1]/div/div[1]/div[2]/oph-bpm-task-displayer/div/div[2]/div/iframe"
+  },
+
+  "TxtTipoDePersona": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "(//div[@class='dx-button-content'])[6]"
+  },
+
+  "SelectTipoPersona": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//td[normalize-space()='Persona Natural']"
+  },
+
+  "BtnAceptarTipoDePersona": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//div[@aria-label='Aceptar']//div[@class='dx-button-content']"
+  },
+
+  "TipoIdentificacion": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "(//div[@class='dx-button-content'])[8]"
+  },
+
+  "SelecTipoIdentificacion": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//td[normalize-space()='Cédula de Ciudadanía']"
+  },
+
+  "BtnAceptarTipoIdentificacion": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//div[@aria-label='Aceptar']//div[@class='dx-button-content']"
+  },
+
+  "TxtDependenciaDestino": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "/html[1]/body[1]/oph-root[1]/oph-main-container[1]/dx-scroll-view[1]/div[1]/div[1]/div[1]/div[2]/div[1]/oph-form-visualization[1]/oph-form-box-visualization[1]/div[1]/div[1]/div[1]/div[1]/div[1]/dx-form[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/dx-text-box[2]/div[1]/div[1]/div[1]/div[1]"
+  },
+
+  "SelectDependenciaDestino": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//td[normalize-space()='Dirección Ejecutiva']"
+  },
+
+  "BtnDependenciaDestino": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//div[@aria-label='Aceptar']//div[@class='dx-button-content']"
+  },
+
+  "TxtFuncionarioResponsable": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "/html[1]/body[1]/oph-root[1]/oph-main-container[1]/dx-scroll-view[1]/div[1]/div[1]/div[1]/div[2]/div[1]/oph-form-visualization[1]/oph-form-box-visualization[1]/div[1]/div[1]/div[1]/div[1]/div[1]/dx-form[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/dx-text-box[2]/div[1]/div[1]/div[1]/div[1]"
+  },
+
+  "SelectFuncionarioResponsable": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//td[contains(text(),'Usuario Ophelia Suite')]"
+  },
+
+  "BtnFuncionarioResponsable": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//div[@aria-label='Aceptar']//div[@class='dx-button-content']"
+  },
+
+  "TxtTipoPQRSD": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "/html[1]/body[1]/oph-root[1]/oph-main-container[1]/dx-scroll-view[1]/div[1]/div[1]/div[1]/div[2]/div[1]/oph-form-visualization[1]/oph-form-box-visualization[1]/div[1]/div[1]/div[1]/div[1]/div[1]/dx-form[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/dx-text-box[2]/div[1]/div[1]/div[1]/div[1]"
+  },
+
+  "SelectTipoPQRSD": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//td[contains(text(),'Denuncia')]"
+  },
+
+  "BtnTipoPQRSD": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//div[@aria-label='Aceptar']//div[@class='dx-button-content']"
+  },
+
+  "BtnTrazabilidadProcesos": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "/html[1]/body[1]/oph-root[1]/oph-side-nav-outer-toolbar[1]/dx-drawer[1]/div[1]/div[2]/div[2]/div[1]/ng-component[1]/div[1]/div[1]/ngb-tabset[1]/div[1]/div[4]/dx-scroll-view[1]/div[1]/div[1]/div[1]/div[2]/oph-bpm-all-tasks[1]/div[1]/div[1]/div[1]/dx-toolbar[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]"
+  },
+  "TxtReferencia": {
+    "GetFieldBy": "name",
+    "ValueToFind": "CAS_CONT"
+  },
+  "BtnLupa": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//div[@aria-label='fas fa-search']//div[@class='dx-button-content']"
+  },
+  "SelectReferenciacion": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "/html/body/oph-root/oph-side-nav-outer-toolbar/dx-drawer/div/div[2]/div[2]/div[1]/ng-component/div/div/ngb-tabset/div/div[4]/dx-scroll-view/div[1]/div/div[1]/div[2]/oph-bpm-traceability/div/div/div/dx-form/div/div/div/div[2]/div/div/div/div/div/dxi-item/oph-full-screen/div/dx-data-grid/div/div[6]/div/div/div[1]/div/table/tbody/tr[1]/td[1]"
+  },
+
+  "BandejaTareas": {
+    "GetFieldBy": "id",
+    "ValueToFind": "BPM_ALL_TASKS"
+  },
+
+  "Referencia": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//div[@class='dx-show-invalid-badge dx-textbox dx-texteditor dx-editor-outlined dx-texteditor-empty dx-widget dx-state-hover']//input[@aria-label='Celda de filtro']"
+  },
+
+  "BtnReferencia": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//tbody/tr[1]/td[7]/a[1]"
+  },
+
+  "MensajeError": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//p[@class='notification-item-right-description'][normalize-space()='No se encontro id de pestaña a cerrar']"
+  },
+
+  "BtnNotificacion": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//dx-button[@aria-label='fas fa-bell']//div[@class='dx-button-content']"
+  },
+
+  "textnombre": {
+    "GetFieldBy": "name",
+    "ValueToFind": "Nombre"
+  },
+
+  "BtnDatosTramite": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//span[normalize-space()='Datos del trámite y clasificación']"
+  },
+
+  "Iframe2": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "/html/body/oph-root/oph-side-nav-outer-toolbar/dx-drawer/div/div[2]/div[2]/div[1]/ng-component/div/div/ngb-tabset/div/div[5]/dx-scroll-view/div[1]/div/div[1]/div[2]/oph-bpm-task-displayer/div/div[2]/div/iframe"
+  },
+
+  "PQRSD": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//span[contains(text(),'Tipo de PQRSD')]"
+  },
+
+  "Asunto": {
+    "GetFieldBy": "name",
+    "ValueToFind": "Asunto"
+  },
+
+  "Radicado": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "/html[1]/body[1]/oph-root[1]/oph-main-container[1]/dx-scroll-view[1]/div[1]/div[1]/div[1]/div[2]/div[1]/oph-form-visualization[1]/oph-form-box-visualization[1]/div[1]/div[1]/div[1]/div[1]/div[1]/dx-form[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[6]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/oph-form-box-visualization[1]/div[1]/div[1]/div[1]/div[1]/div[1]/dx-form[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/dx-text-box[2]/div[1]/div[1]/div[1]/div[1]"
+  },
+
+  "SelectRadicado": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//td[contains(text(),'2021--0361')]"
+  },
+
+  "ConcluirTarea": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//body/oph-root[1]/oph-side-nav-outer-toolbar[1]/dx-drawer[1]/div[1]/div[2]/div[2]/div[1]/ng-component[1]/div[1]/div[1]/ngb-tabset[1]/div[1]/div[5]/dx-scroll-view[1]/div[1]/div[1]/div[1]/div[2]/oph-bpm-task-displayer[1]/div[1]/div[1]/oph-button-toolbar[1]/dx-toolbar[1]/div[1]/div[3]/div[7]/div[1]/div[1]"
+  },
+
+  "Informacion": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//div[@title='Información de la tarea']//div[@class='dx-button-content']"
+  },
+
+  "Copiar": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "/html/body/div[2]/div/div[2]/div/dx-scroll-view/div[1]/div/div[1]/div[2]/div[4]/div/oph-copy-to-clipboard-button/div/dx-button"
+  },
+
+  "Aceptar": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//div[@aria-label='Aceptar']//div[@class='dx-button-content']"
+  },
+
+  "SelectProceso1": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "/html[1]/body[1]/oph-root[1]/oph-side-nav-outer-toolbar[1]/dx-drawer[1]/div[1]/div[2]/div[2]/div[1]/ng-component[1]/div[1]/div[1]/ngb-tabset[1]/div[1]/div[5]/dx-scroll-view[1]/div[1]/div[1]/div[1]/div[2]/oph-bpm-traceability[1]/div[1]/div[1]/div[1]/dx-form[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/dxi-item[1]/oph-full-screen[1]/div[1]/dx-data-grid[1]/div[1]/div[6]/div[1]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[1]/*[name()='td']"
+  },
+
+  "BtnBandejaTareas": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//span[normalize-space()='Bandeja de Tareas']"
+  },
+
+  "BtnRecargasTareas": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "/html[1]/body[1]/oph-root[1]/oph-side-nav-outer-toolbar[1]/dx-drawer[1]/div[1]/div[2]/div[2]/div[1]/ng-component[1]/div[1]/div[1]/ngb-tabset[1]/div[1]/div[4]/dx-scroll-view[1]/div[1]/div[1]/div[1]/div[2]/oph-bpm-all-tasks[1]/div[1]/div[1]/div[1]/dx-toolbar[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]"
+
+  },
+
+  "TxtReferencia2": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "/html/body/oph-root/oph-side-nav-outer-toolbar/dx-drawer/div/div[2]/div[2]/div[1]/ng-component/div/div/ngb-tabset/div/div[4]/dx-scroll-view/div[1]/div/div[1]/div[2]/oph-bpm-all-tasks/div/div/div/oph-full-screen/div/dx-data-grid/div/div[5]/div/table/tbody/tr[2]/td[2]/div/div[2]/div/div/div[1]/input"
+
+  },
+
+  "BtnAbrirTarea": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "/html/body/oph-root/oph-side-nav-outer-toolbar/dx-drawer/div/div[2]/div[2]/div[1]/ng-component/div/div/ngb-tabset/div/div[4]/dx-scroll-view/div[1]/div/div[1]/div[2]/oph-bpm-all-tasks/div/div/div/oph-full-screen/div/dx-data-grid/div/div[6]/div/div/div[1]/div/table/tbody/tr[1]/td[7]/a"
+  },
+
+  "ConcluirTarea2": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "/html/body/oph-root/oph-side-nav-outer-toolbar/dx-drawer/div/div[2]/div[2]/div[1]/ng-component/div/div/ngb-tabset/div/div[6]/dx-scroll-view/div[1]/div/div[1]/div[2]/oph-bpm-task-displayer/div/div[1]/oph-button-toolbar/dx-toolbar/div/div[3]/div[7]/div/div"
+  },
+
+  "BtnBPM": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//span[normalize-space()='BPM Trazabilidad']"
+  },
+
+  "BtnRefrescar": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//div[@title='Refrescar']"
+  },
+
+  "BtnDatoDocumento": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//span[normalize-space()='Datos del documento']"
+  },
+  "BtnSeleccionarArchivo": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//input[@type='file']"
+  },
+
+  "BtnPerfil": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//dx-button[@class='text-center user-button authorization dx-button dx-button-normal dx-button-mode-text dx-widget']"
+  },
+
+  "BtnCerrarSesion": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//span[normalize-space()='Cerrar Sesión']"
+  },
+
+  "DiasGestion": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "/html/body/oph-root/oph-main-container/dx-scroll-view/div[1]/div/div[1]/div[2]/div/oph-form-visualization/oph-form-box-visualization/div/div/div/div/div/dx-form/div/div/div/div[2]/div/div/div/div/div[2]/div/div/div[2]/div/div/div/div/div[2]/div/div/div/div/div/div/div/div/div[6]/div/div/label/span/span"
+  },
+
+  "BtnSi": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "/html/body/div[2]/div/div/div[3]/div/div[2]/div[1]/div/div"
+  },
+
+  "Validacion": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//span[normalize-space()='¿Requiere Modificaciones?']"
+  },
+
+  "NombreRemitente": {
+    "GetFieldBy": "name",
+    "ValueToFind": "NomRemitente"
+  },
+
+  "BtnSiEdicion": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "(//div[@class='dx-radiobutton-icon'])[1]"
+  },
+
+  "IdentificadorIframe3": {
+    "GetFieldBy": "iframe",
+    "ValueToFind": "/html/body/oph-root/oph-side-nav-outer-toolbar/dx-drawer/div/div[2]/div[2]/div[1]/ng-component/div/div/ngb-tabset/div/div[6]/dx-scroll-view/div[1]/div/div[1]/div[2]/oph-bpm-task-displayer/div/div[2]/div/iframe"
+  },
+
+  "BtnAjusteRadicacionPQRSD": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//span[normalize-space()='Ajuste Radicación de PQRSD']"
+  },
+
+  "BtnConcluirTarea3": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "/html/body/oph-root/oph-side-nav-outer-toolbar/dx-drawer/div/div[2]/div[2]/div[1]/ng-component/div/div/ngb-tabset/div/div[6]/dx-scroll-view/div[1]/div/div[1]/div[2]/oph-bpm-task-displayer/div/div[1]/oph-button-toolbar/dx-toolbar/div/div[3]/div[7]/div/div"
+  },
+
+  "IdentificadorIframe4": {
+    "GetFieldBy": "iframe",
+    "ValueToFind": "/html/body/oph-root/oph-side-nav-outer-toolbar/dx-drawer/div/div[2]/div[2]/div[1]/ng-component/div/div/ngb-tabset/div/div[6]/dx-scroll-view/div[1]/div/div[1]/div[2]/oph-bpm-task-displayer/div/div[2]/div/iframe"
+  }
+
+
+}
+
