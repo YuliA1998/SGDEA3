@@ -316,7 +316,7 @@ namespace Proceso_168016__sgdetest.StepDefinations
         public void ThenTomaPantallazo()
         {
 
-            GeneralHook.AfterScenario();
+            //GeneralHook.AfterScenario();
 
         }
 
