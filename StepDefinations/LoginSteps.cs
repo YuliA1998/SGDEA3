@@ -15,6 +15,7 @@ namespace Proceso_168016__sgdetest.StepDefinations
         static String JsonGlobal;
 
         [Given(@"Usurio navega en el inicio de  (.*)  sesion (.*)")]
+        [Obsolete]
         public void GivenUserNavigatesToApplicationLoginPage(String site, String Navegador)
         {
             try

@@ -122,6 +122,7 @@ namespace Proceso_168016__sgdetest.StepDefinations
 
 
         [Then(@"Clic en el (.*)")]
+        [Obsolete]
         public void ThenClicEnElBoton(string elemvalue)
         {
 
@@ -133,6 +134,7 @@ namespace Proceso_168016__sgdetest.StepDefinations
         }
 
         [Then(@"DobleClic (.*)")]
+        [Obsolete]
         public void ThenDobleClicX(string elemvalue)
         {
             EntityClass elem = JsonClass.Get_entity(elemvalue);
@@ -143,6 +145,7 @@ namespace Proceso_168016__sgdetest.StepDefinations
 
 
         [Then(@"Click en el (.*)")]
+        [Obsolete]
         public void ThenClickEnElBtnSi(string elemvalue)
         {
             //ScenarioContext.Current.Pending();
@@ -155,6 +158,7 @@ namespace Proceso_168016__sgdetest.StepDefinations
 
 
         [When(@"Se valida los campos obligatorios (.*)")]
+        [Obsolete]
         public void WhenSeValidaLosCamposObligatoriosX(string elemvalue)
         {
             EntityClass elem = JsonClass.Get_entity(elemvalue);
@@ -164,6 +168,7 @@ namespace Proceso_168016__sgdetest.StepDefinations
         }
 
         [Then(@"se valida mensaje de confimacion (.*)")]
+        [Obsolete]
         public void ThenSeValidaMensajeDeConfimacion(string elemvalue)
         {
             EntityClass elem = JsonClass.Get_entity(elemvalue);
