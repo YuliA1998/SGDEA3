@@ -16,7 +16,7 @@ Background:
 Scenario Outline:Persona Anonima
     Then Espera de 20
 	When Cargo el  DOM de la app: EscenarioPrincipal
-	Then Espera de 10
+	#Then Espera de 10
  #   Then Clic en el BtnBandejaTarea
 	#* Espera de 5
 	#Then Clic en el BtnAbrirBandeja

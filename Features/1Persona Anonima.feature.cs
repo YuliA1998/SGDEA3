@@ -142,9 +142,6 @@ this.FeatureBackgroundAsync();
 #line 18
  await testRunner.WhenAsync("Cargo el  DOM de la app: EscenarioPrincipal", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 19
- await testRunner.ThenAsync("Espera de 10", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line hidden
             }
             await this.ScenarioCleanupAsync();
         }
