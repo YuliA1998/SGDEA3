@@ -1,17 +1,17 @@
-﻿#Feature:Edicion Personal Natural
+﻿#Feature:Edicion Persona Anonima ggggggg
 #
 #Background: 
 #	Given Usurio navega en el inicio de  External  sesion Chrome
 #	And Cargo el  DOM de la app: Login
-#	When Usuario se logea con credenciales OpheliaSuite y validPassword en los campos textUsername y textPassword
+#	When Usuario se logea con credenciale OpheliaSuite y validPassword en los campos textUsername y textPassword
 #	Then Espera de 5
 #	And Click en el boton
 #	Then Espera de 15
 #    #Then User should be able to login succesfully Yuly Johana Aristizabal T
 #
 #@External
-#Scenario Outline:5 Edicion Persona Natural 
-#    Then Espera de 10
+#Scenario Outline:4Edicion Persona Anonima
+#    Then Espera de 20
 #	When Cargo el  DOM de la app: EscenarioPrincipal
 #	Then Espera de 10
 #    Then Clic en el BtnBandejaTarea
@@ -28,8 +28,6 @@
 #	* Espera de 60
 #	When Cambie al frame IdentificadorIframe
 #	Then Espera de 5
-#	Then en el campo NombreRemitente ingreso prueba
-#    Then Espera de 5
 #	When Cargo el  DOM de la app: CanalRecepcion
 #	Then Espera de 5
 #	Then Clic en el LupaCanalRecepcion
@@ -42,19 +40,11 @@
 #	Then Espera de 5
 #	Then Clic en el LupaTipoDePersona
 #	Then Espera de 5
-#	Then Clic en el PN
+#	Then Clic en el PA
 #	Then Espera de 5
 #	Then Clic en el BtnAceptarTipoDePersona
 #	Then Espera de 5
-#	When Cargo el  DOM de la app: TipoIdentificacion
-#	Then Espera de 5
-#    Then Clic en el LupaIdentificacion
-#	Then Espera de 5
-#	Then Clic en el <TipoIdentificacion>
-#	Then Espera de 5
-#	Then Clic en el BtnAceptarTipoIdentificacion
-#	Then Espera de 10
-#    And Toma pantallazo
+#	And Toma pantallazo
 #	When Cargo el  DOM de la app: EscenarioPrincipal
 #	Then Espera de 5
 #	Then Clic en el BtnDatoDocumento
@@ -80,7 +70,7 @@
 #	Then Clic en el <FuncionarioResponsable>
 #	Then Espera de 5
 #	Then Clic en el BtnAceptarFuncionarioResponsable
-#	Then Espera de 10
+#	Then Espera de 5
 #	And Toma pantallazo
 #	When Cargo el  DOM de la app: EscenarioPrincipal
 #	Then Espera de 5
@@ -152,6 +142,8 @@
 #	Then Espera de 15
 #	When Cargo el  DOM de la app: EscenarioPrincipal
 #	Then Espera de 5
+#	Then en el campo NombreRemitente ingreso prueba
+#	Then Espera de 5
 #	When Cargo el  DOM de la app: CanalRecepcion
 #	Then Espera de 5
 #	Then Clic en el LupaCanalRecepcion2
@@ -164,9 +156,17 @@
 #	Then Espera de 5
 #	Then Clic en el LupaTipoDePersona2
 #	Then Espera de 5
-#	Then Clic en el PA
+#	Then Clic en el PN
 #	Then Espera de 5
 #	Then Clic en el BtnAceptarTipoDePersona
+#	Then Espera de 5
+#	When Cargo el  DOM de la app: TipoIdentificacion
+#	Then Espera de 5
+#    Then Clic en el LupaIdentificacion2
+#	Then Espera de 5
+#	Then Clic en el <TipoIdentificacion>
+#	Then Espera de 5
+#	Then Clic en el BtnAceptarTipoIdentificacion
 #	Then Espera de 5
 #	When Cargo el  DOM de la app: EscenarioPrincipal
 #	Then Espera de 5
@@ -206,7 +206,7 @@
 #
 #Examples: 
 #| CanalRecepcion | DependenciaDestino | FuncionarioResponsable | TipoPQRSD | TipoIdentificacion |
-#| Chat           | 1                  | 1                      | Den       | CC                |
+#| Chat           | 1                  | 1                      | Den       | CC                 |
 #| Red            | 2                  | 2                      | Pet       | CE                |
 #| Mail           | 3                  | 3                      | Que       | ND                |
 #| PorWeb         | 4                  | 4                      | Rec       | PA                |

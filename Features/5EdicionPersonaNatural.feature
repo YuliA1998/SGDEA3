@@ -1,16 +1,16 @@
-﻿#Feature:PersonaNatural
+﻿#Feature:Edicion Personal Natural ggggggggg
 #
 #Background: 
 #	Given Usurio navega en el inicio de  External  sesion Chrome
 #	And Cargo el  DOM de la app: Login
-#	When Usuario se logea con credenciales OpheliaSuite y validPassword en los campos textUsername y textPassword
+#	When Usuario se logea con credenciale OpheliaSuite y validPassword en los campos textUsername y textPassword
 #	Then Espera de 5
 #	And Click en el boton
 #	Then Espera de 15
 #    #Then User should be able to login succesfully Yuly Johana Aristizabal T
 #
 #@External
-#Scenario Outline:3PersonaNatural 
+#Scenario Outline:5 Edicion Persona Natural 
 #    Then Espera de 10
 #	When Cargo el  DOM de la app: EscenarioPrincipal
 #	Then Espera de 10
@@ -130,7 +130,6 @@
 #	Then Clic en el BtnRecargasTareas
 #	Then Espera de 10
 #	And Toma pantallazo
-#	Then Espera de 5
 #	When pegar referencia del caso TxtReferencia2
 #	Then Espera de 10
 #	Then Clic en el BtnAbrirTarea
@@ -139,8 +138,58 @@
 #	Then Espera de 5
 #	When validacion inconsistencias Validacion
 #	Then Espera de 10
+#	Then Espera de 5
+#	Then Clic en el BtnSiEdicion
+#	Then Espera de 5
+#	Then Clic en el BtnAjusteRadicacionPQRSD
+#	Then Espera de 5
+#	When Cargo el  DOM de la app: CanalRecepcion
+#	Then Espera de 5
+#	Then Clic en el Btnx
+#	When Cargo el  DOM de la app: TipoPersona
+#	Then Espera de 5
+#	Then Clic en el Btnx2
+#	Then Espera de 15
+#	When Cargo el  DOM de la app: EscenarioPrincipal
+#	Then Espera de 5
+#	When Cargo el  DOM de la app: CanalRecepcion
+#	Then Espera de 5
+#	Then Clic en el LupaCanalRecepcion2
+#	Then Espera de 5
+#	Then Clic en el <CanalRecepcion>
+#	Then Espera de 5
+#	Then Clic en el BtnAceptarSelectCanalRecepcion
+#	Then Espera de 5
+#	When Cargo el  DOM de la app: TipoPersona
+#	Then Espera de 5
+#	Then Clic en el LupaTipoDePersona2
+#	Then Espera de 5
+#	Then Clic en el PA
+#	Then Espera de 5
+#	Then Clic en el BtnAceptarTipoDePersona
+#	Then Espera de 5
+#	When Cargo el  DOM de la app: EscenarioPrincipal
+#	Then Espera de 5
 #	When salir del iframe
+#	Then Espera de 5
 #	Then DobleClic ConcluirTarea2
+#	Then Espera de 10
+#	Then Clic en el BtnBPM
+#	Then Espera de 5
+#	Then Clic en el BtnRefrescar
+#	Then Espera de 5
+#	Then Clic en el BtnBandejaTareas
+#	Then Espera de 5
+#	Then Clic en el BtnRecargasTareas
+#	Then Espera de 10
+#	Then Clic en el BtnAbrirTarea
+#	Then Espera de 10
+#	When Cambie al frame IdentificadorIframe4
+#	Then Espera de 5
+#	When validacion inconsistencias Validacion
+#	Then Espera de 10
+#	When salir del iframe
+#	Then DobleClic BtnConcluirTarea3
 #	Then Espera de 10
 #	Then Clic en el BtnBPM
 #	Then Espera de 5
